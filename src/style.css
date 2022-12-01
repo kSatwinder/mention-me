@@ -1,0 +1,290 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+@font-face {
+  font-family: 'Roboto', sans-serif;  
+  src: local("Roboto-Regular"), url("./Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  src: local("Roboto-Bold"), url("./Fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+*{
+	margin:0;
+	padding:0;
+	font-family:'Roboto', sans-serif;
+    color: #020000;
+}
+.navigationMain .navbar-nav .nav-link {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #020000;
+}
+.navigationMain {
+    margin-bottom: 50px;
+    margin-top:10px;
+}
+.bannerContent h1{
+	font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+.bannerHeadingBold {
+    font-size: 65px;
+    line-height: 88px;
+    text-decoration: underline;
+}
+.clrYellow {
+    color: #F2DA0E;
+}
+.bannerContent p {
+    line-height: 30px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+.btnBlack {
+    padding: 14px 26px;
+    background-color: #000;
+    border:1px solid #000000;
+    color: #fff;
+    line-height: 18px;
+    border-radius: 10px;
+}
+.btnBlack:hover, .btnBlack:focus, .btnBlack:active, :not(.btn-check)+.btnBlack:active{
+    background-color: #ffffff;
+    color:#00000;
+    border:1px solid #000000;
+}
+.brandsContainer {
+    background-color: #FAFAFA;
+    padding: 50px 0 30px;
+}
+.headingMain {
+    position: relative;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 42px;
+}
+.headingMain:after {
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    border: 1px solid #F2DA0E;
+    background-color: #F2DA0E;
+    content: '';
+    left: 0;
+    bottom: -10px;
+}
+.containerMargin{
+    margin-bottom: 80px;
+}
+.servicesContainer p, .statsHeading p{
+    color: #555555;
+}
+.statsHeading p{
+    margin-bottom: 0;
+}
+.serviceIcon {
+    margin-bottom: 30px;
+}
+.serviceContent h5 {
+    margin-bottom: 16px;
+}
+.serviceContent h5 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 600;
+} 
+.serviceGrid {
+    padding: 20px 35px;
+    border: 1px solid #fff;
+}
+.serviceGrid:hover {
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;
+    box-shadow: 0px 0px 22px rgb(0 0 0 / 10%);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.bannerMain {
+    margin-bottom: 40px;
+}
+.introContainer p {
+    color: #555555;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.introImage img {
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 10px;
+}
+.introImagesGridTop, .introImagesGridBottom {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 15%);
+    height: 100%;
+}
+.introImagesGridTop {
+    margin-top: 50px;
+    margin-left: -90px;
+    position: relative;
+}
+.introImagesGridTop:after {
+    content: "";
+    width: 130px;
+    height: 140px;
+    right: -20px;
+    bottom: -20px;
+    background: #FF8660;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 15%);
+    border-radius: 30px 5px;
+    position: absolute;
+    z-index: -1;
+}
+.statCount p {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.countRed p {
+    color: #F33A00;
+}
+.countPink p {
+    color: #FF426F;
+}
+.countBlue p {
+    color: #896EF6;
+}
+.statCount {
+    padding-left: 20px;
+}
+.infoContainer p {
+    color: #555555;
+    line-height: 30px;
+}
+.getStarted {
+    padding: 45px 40px;
+    background-color: rgba(242, 225, 220, 0.7);
+    border-radius: 10px;
+}
+.getStartedContent h3 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 50px;
+}
+.getStartedContent p {
+    color: #555555;
+}
+.footer {
+    background-color: #fafafa;
+    padding: 50px 0 40px;
+}
+.footerLogo {
+    margin-bottom: 40px;
+}
+.footerNavigation .nav-item{
+    position: relative;
+}
+.footerNavigation .nav-item .nav-link{
+    color: #020000;
+    padding: 0;
+    margin: 0.5rem 1rem;
+}
+.footerNavigation .nav-item:after {
+    position: absolute;
+    right: -1px;
+    content: "";
+    background-color: #C7C7C7;
+    height: 16px;
+    width: 2px;
+    top: 12px;
+}
+.footerNavigation .nav-item:last-child:after {
+    height: 0;
+}
+.footerNavigation {
+    margin-bottom: 30px;
+}
+.socialLinks ul li a{
+    margin: 0.5rem 1rem;
+}
+.socialLinks ul{
+    margin-bottom: 30px;
+}
+.socialLinks .footerTagLine{
+    font-size: 14px;
+    line-height: 16px;
+    color: #555555;
+    margin-bottom: 0;
+}
+.headerBtns .btnHeaderOutline {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    min-width: 100px;
+    height: 44px;
+    padding: 9px 15px;
+    color: #020000;
+}
+.headerBtns .btnHeaderOutline:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.headerBtns .btnHeaderSolid {
+    border: 1px solid #000000;
+    background-color: #000000;
+    border-radius: 10px;
+    min-width: 100px;
+    height: 44px;
+    padding: 9px 15px;
+    color: #ffffff;
+}
+.headerBtns .btnHeaderSolid:hover{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #020000;
+}
+.introImagesCaption img {
+    margin-right: 5px;
+}
+.infoImageOne img {
+    width: 270px;
+    height: 240px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.infoImageTwo img {
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: -90px;
+    margin-right: 90px;
+}
+.infoImageThree img{
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.infoImageFour img {
+    width: 270px;
+    height: 240px;
+    border-radius: 10px;
+    margin-top: -60px;
+}
+.infoImageOne, .infoImageTwo, .infoImageThree, .infoImageFour{
+    display: inline;
+}
+.infoImageOne img, .infoImageTwo img, .infoImageThree img, .infoImageFour img{
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 15%);
+}
+.portfolioSlider img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 15%);
+}
+.slick-initialized .slick-slide {
+    max-width: 380px;
+    padding: 28px 0;
+}
