@@ -1,4 +1,3 @@
-
 import Slider from "react-slick";
 
 import sliderImg1 from '../Images/sliderImg1.png';
